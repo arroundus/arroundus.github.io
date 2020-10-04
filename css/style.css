@@ -83,7 +83,8 @@ a.GitHub {
     float: right;
 }
 .contacts h3 {
-    margin-left: 30%;
+    display: flex;
+    justify-content: center;
 }
 .contacts ul {
     list-style-type: none;
@@ -96,7 +97,7 @@ a.GitHub {
     width: 20px;
     height: 20px;
     float: left;
-    margin: 4% 2% 0% 0%;
+    margin: 3% 2% 0% 0%;
 }
 .post {
     background: rgb(255, 255, 255);
@@ -141,7 +142,8 @@ a.GitHub {
     margin-left: 30%;
 }
 .education h2 {
-    margin-left: 15%;
+    display: flex;
+    justify-content: center;
 }
 .experience {
     background: rgb(255, 255, 255);
@@ -162,4 +164,8 @@ a.GitHub {
     margin: 10px 30px 10px 30px;
     padding: 5px 10px 5px 10px;
     overflow: auto;
+}
+.lang h2 {
+    display: flex;
+    justify-content: center;
 }
