@@ -105,13 +105,14 @@ a.GitHub {
     padding: 5px 5px 5px 10px;
     width: 33%;
     height: 340px;
-    min-width: 400;
+    min-width: 400px;
     position: static;
     overflow: auto;
     display: inline-block;
 }
 .post h2 {
-    margin-left: 23%;
+    display: flex;
+    justify-content: center;
 }
 .skill {
     background: rgb(255, 255, 255);
@@ -122,7 +123,6 @@ a.GitHub {
     width: 100%;
 }
 .skill h2 {
-    margin-right: 20%;
     display: flex;
     justify-content: center;
 }
