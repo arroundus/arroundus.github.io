@@ -1,0 +1,161 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+}
+span {
+    font-style: italic;
+    font-weight: 600;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(95, 95, 95);
+}
+.header {
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
+    margin: 10px 30px 10px 30px;
+    padding: 5px 10px 5px 10px;
+    overflow: auto;
+    width: 95%;
+    position: fixed;
+    top: 0px;
+}
+.header li {
+    float: right;
+    display: inline;
+}
+#panel {
+    margin: 15px 10px 15px 0px;
+    float: left;
+}
+
+a.GitHub {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 6px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+    margin: 0px 10px 15px 0px;
+  } 
+  a.GitHub:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+  a.GitHub:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+.aboutme {
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
+    margin: 110px 30px 10px 30px;
+    padding: 5px 10px 5px 10px;
+    overflow: auto;
+}
+.aboutme h2 {
+    margin-left: 47%;
+}
+#myphoto {
+    width: 200px;
+    height: 300px;
+    float: right;
+    margin: 0px 10px 15px 0px;
+    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
+}
+#story {
+    width: 800px;
+}
+.contacts {
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
+    margin: 40px 30px 10px 30px;
+    padding: 5px 10px 5px 10px;
+    height: auto;
+    width: 230px;
+    float: right;
+}
+.contacts h3 {
+    margin-left: 30%;
+}
+.contacts ul {
+    list-style-type: none;
+}
+.contacts li {
+    line-height: 2;
+}
+.contacts img {
+    width: 20px;
+    height: 20px;
+    float: left;
+    padding-top: 6px;
+    margin-right: 2px;
+}
+.post {
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
+    margin: 10px 10px 10px 30px;
+    padding: 5px 5px 5px 10px;
+    width: 33%;
+    height: 330px;
+    overflow: auto;
+    display: inline-block;
+}
+.post h2 {
+    margin-left: 30%;
+}
+.skill {
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
+    margin: 10px 30px 10px 30px;
+    padding: 5px 10px 5px 10px;
+    height: auto;
+    width: 380px;
+    margin-left: 14%;
+}
+.skill h2 {
+    margin-left: 35%;
+}
+.imageskill {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none
+}
+.education {
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
+    margin: 10px 30px 10px 30px;
+    padding: 5px 10px 5px 10px;
+    overflow: auto;
+    width: 40%;
+    margin-left: 30%;
+}
+.education h2 {
+    margin-left: 15%;
+}
+.experience {
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
+    margin: 10px 10px 10px 30px;
+    padding: 5px 10px 5px 10px;
+    overflow: auto;
+    width: 58.5%;
+    height: 330px;
+    display: inline-block;
+}
+.experience h2 {
+    margin-left: 40%;
+}
+.lang {
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
+    margin: 10px 30px 10px 30px;
+    padding: 5px 10px 5px 10px;
+    overflow: auto;
+}
