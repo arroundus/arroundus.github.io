@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-image: url(../img/background.jpg);
     background-attachment: fixed;
+    min-width: 1170px;
 }
 span {
     font-style: italic;
@@ -20,10 +21,9 @@ a:hover {
 .header {
     background: rgb(255, 255, 255);
     box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
-    margin: 10px 30px 10px 30px;
     padding: 5px 10px 5px 10px;
     overflow: auto;
-    width: 95%;
+    width: 100%;
     position: fixed;
     top: 0px;
 }
@@ -48,7 +48,7 @@ a.GitHub {
     border-radius: 6px;
     background: linear-gradient(#F3AE0F, #E38916) #E38916;
     transition: 0.2s;
-    margin: 0px 10px 15px 0px;
+    margin: 15px 0px 15px 10px;
   } 
   a.GitHub:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
   a.GitHub:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
@@ -58,15 +58,16 @@ a.GitHub {
     margin: 110px 30px 10px 30px;
     padding: 5px 10px 5px 10px;
     overflow: auto;
+    min-width: 1110px;
 }
 .aboutme h2 {
-    margin-left: 47%;
+    margin-left: 40%;
 }
 #myphoto {
     width: 200px;
     height: 300px;
     float: right;
-    margin: 0px 10px 15px 0px;
+    margin: 10px 10px 15px 0px;
     box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
 }
 #story {
@@ -75,8 +76,8 @@ a.GitHub {
 .contacts {
     background: rgb(255, 255, 255);
     box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
-    margin: 40px 30px 10px 30px;
-    padding: 5px 10px 5px 10px;
+    margin: 50px 30px 10px 10px;
+    padding: 5px 10px 5px 0px;
     height: auto;
     width: 230px;
     float: right;
@@ -89,13 +90,13 @@ a.GitHub {
 }
 .contacts li {
     line-height: 2;
+    vertical-align: middle;
 }
 .contacts img {
     width: 20px;
     height: 20px;
     float: left;
-    padding-top: 6px;
-    margin-right: 2px;
+    margin: 4% 0% 0% 0%;
 }
 .post {
     background: rgb(255, 255, 255);
@@ -103,28 +104,31 @@ a.GitHub {
     margin: 10px 10px 10px 30px;
     padding: 5px 5px 5px 10px;
     width: 33%;
-    height: 330px;
+    height: 340px;
+    min-width: 400;
+    position: static;
     overflow: auto;
     display: inline-block;
 }
 .post h2 {
-    margin-left: 30%;
+    margin-left: 23%;
 }
 .skill {
     background: rgb(255, 255, 255);
     box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
-    margin: 10px 30px 10px 30px;
-    padding: 5px 10px 5px 10px;
+    margin: 7% 0% 0% 0%;
     height: auto;
-    width: 380px;
-    margin-left: 14%;
+    overflow: auto;
+    width: 100%;
 }
 .skill h2 {
-    margin-left: 35%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: center;
 }
 .imageskill {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     list-style-type: none
 }
 .education {
@@ -146,7 +150,7 @@ a.GitHub {
     padding: 5px 10px 5px 10px;
     overflow: auto;
     width: 58.5%;
-    height: 330px;
+    height: 340px;
     display: inline-block;
 }
 .experience h2 {
