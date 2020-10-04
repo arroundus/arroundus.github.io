@@ -55,7 +55,7 @@ a.GitHub {
 .aboutme {
     background: rgb(255, 255, 255);
     box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
-    margin: 110px 1.75% 0% 1.75%;
+    margin: 100px 1.75% 0% 1.75%;
     padding: 5px 10px 5px 10px;
     overflow: auto;
     min-width: 1110px;
@@ -103,7 +103,7 @@ a.GitHub {
     background: rgb(255, 255, 255);
     box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
     margin: 0% 0% 0% 1.75%;
-    padding: 5px 5px 5px 10px;
+    padding: 5px 5px 5px 5px;
     width: 33%;
     height: 340px;
     min-width: 400px;
@@ -135,7 +135,7 @@ a.GitHub {
 .education {
     background: rgb(255, 255, 255);
     box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
-    margin: 10px 30px 10px 30px;
+    margin: 0px 30px 10px 30px;
     padding: 5px 10px 5px 10px;
     overflow: auto;
     width: 40%;
