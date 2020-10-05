@@ -1,178 +1,28 @@
-body {
-    font-family: 'Open Sans', sans-serif;
-    background-image: url(../img/background.jpg);
-    background-attachment: fixed;
-    min-width: 1170px;
+.info {
+    height: 92.3vh;
+    background-color: rgb(182, 182, 182);
+    position: relative;
 }
-span {
-    font-style: italic;
-    font-weight: 600;
-}
-ul {
-    list-style-type: none;
-}
-a {
-    color: black;
-    text-decoration: none;
-}
-a:hover {
-    color: rgb(95, 95, 95);
-}
-.header {
-    background: rgb(255, 255, 255);
-    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
-    padding: 5px 10px 5px 10px;
-    overflow: auto;
-    width: 100%;
-    position: fixed;
-    top: 0px;
-}
-.header li {
-    float: right;
-    display: inline;
-}
-#panel {
-    margin: 0px 10px 0px 0px;
-    float: left;
-}
-#panel img {
-    margin: 0px 15px 0px 0px;
-}
-#panel span {
-    font-size: 250%;
-    font-weight: 800;
-    font-style: normal;
-}
-a.GitHub {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    padding: .5em 2em;
-    outline: none;
-    border-width: 2px 0;
-    border-style: solid none;
-    border-color: #FDBE33 #000 #D77206;
-    border-radius: 6px;
-    background: linear-gradient(#F3AE0F, #E38916) #E38916;
-    transition: 0.2s;
-    margin: 15px 0px 15px 10px;
-  } 
-  a.GitHub:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
-  a.GitHub:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
-.aboutme {
-    background: rgb(255, 255, 255);
-    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
-    margin: 100px 1.75% 0% 1.75%;
-    padding: 5px 10px 5px 10px;
-    overflow: auto;
-    min-width: 1110px;
-}
-.aboutme h2 {
-    margin-left: 40%;
-}
-#myphoto {
-    width: 200px;
-    height: 300px;
-    float: right;
-    margin: 10px 10px 15px 0px;
-    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
-}
-#story {
-    width: 800px;
-}
-.contacts {
-    background: rgb(255, 255, 255);
-    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
-    margin: 50px 30px 10px 10px;
-    padding: 5px 10px 5px 0px;
-    height: auto;
-    width: 230px;
-    float: right;
-}
-.contacts h3 {
-    display: flex;
-    justify-content: center;
-}
-.contacts ul {
-    list-style-type: none;
-}
-.contacts li {
-    line-height: 2;
-    vertical-align: middle;
-}
-.contacts img {
-    width: 20px;
-    height: 20px;
-    float: left;
-    margin: 3% 2% 0% 0%;
-}
-.post {
-    background: rgb(255, 255, 255);
-    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
-    margin: 0% 0% 0% 1.75%;
-    padding: 0px 5px 0px 5px;
-    width: 33%;
-    height: 350px;
-    min-width: 400px;
-    position: static;
-    overflow: auto;
-    display: inline-block;
-}
-.post h2 {
-    display: flex;
-    justify-content: center;
-}
-.skill {
-    background: rgb(255, 255, 255);
-    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
-    margin: 10% 0% 0% 0%;
-    height: auto;
-    overflow: auto;
-    width: 100%;
-}
-.skill h2 {
-    display: flex;
-    justify-content: center;
-}
-.imageskill {
-    display: flex;
-    justify-content: center;
-    list-style-type: none
-}
-.education {
-    background: rgb(255, 255, 255);
-    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
-    margin: 0px 30px 10px 30px;
-    padding: 5px 10px 5px 10px;
-    overflow: auto;
-    width: 40%;
-    margin-left: 30%;
-}
-.education h2 {
-    display: flex;
-    justify-content: center;
-}
-.experience {
-    background: rgb(255, 255, 255);
-    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
-    margin: 0% 0% 0% 0%;
-    padding: 5px 10px 5px 10px;
-    overflow: auto;
-    width: 63.2%;
-    height: 350px;
-    display: inline-block;
-}
-.experience h2 {
-    margin-left: 40%;
+.info h3 {
+    color: rgb(48, 48, 48);
 }
 .lang {
-    background: rgb(255, 255, 255);
-    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
-    margin: 10px 30px 10px 30px;
-    padding: 5px 10px 5px 10px;
-    overflow: auto;
+    position: absolute;
+    bottom: 10px;
 }
-.lang h2 {
-    display: flex;
-    justify-content: center;
+.info p {
+    font-size: large;
+    color: #202225;
+}
+.info span {
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(73, 85, 76);
+}
+.all {
+    height: 92.3vh;
+}
+.dropdown img {
+    height: 20px;
+    width: 20px;
 }
