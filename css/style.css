@@ -32,10 +32,17 @@ a:hover {
     display: inline;
 }
 #panel {
-    margin: 15px 10px 15px 0px;
+    margin: 0px 10px 0px 0px;
     float: left;
 }
-
+#panel img {
+    margin: 0px 15px 0px 0px;
+}
+#panel span {
+    font-size: 250%;
+    font-weight: 800;
+    font-style: normal;
+}
 a.GitHub {
     display: inline-block;
     color: white;
