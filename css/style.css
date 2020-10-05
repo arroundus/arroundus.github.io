@@ -37,25 +37,14 @@
 #post img {
     margin: 0px 2px 0px 2px;
 }
-#hmgutu {
+#hexp {
     font-size: 30px;
     color: black;
 }
-#bmgutu li {
+#bodyexp li{
     font-size: larger;
 }
-#bmgutu span {
-    font-weight: 600;
-    font-style: italic;
-}
-#hoko {
-    font-size: 30px;
-    color: black;
-}
-#boko li{
-    font-size: larger;
-}
-#boko span {
+#bodyexp span {
     font-weight: 600;
     font-style: italic;
 }
