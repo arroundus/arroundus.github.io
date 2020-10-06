@@ -61,6 +61,8 @@ body {
 }
 #post li {
     font-size: 2vh;
+}
+#am li {
     margin-left: 5vh;
 }
 #post h2 {
