@@ -23,7 +23,8 @@
     color: rgb(73, 85, 76);
 }
 .all {
-    height: 200px;
+    position: relative;
+    height: auto;
 }
 .dropdown img {
     height: 20px;
