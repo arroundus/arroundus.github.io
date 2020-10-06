@@ -3,6 +3,9 @@
     height: auto;
     background-color: rgb(182, 182, 182);
 }
+body {
+    font-family: 'Piazzolla', serif;
+}
 #myphoto {
     box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
     margin-top: 1vh;
@@ -20,7 +23,7 @@
 .info span {
     font-weight: 700;
     font-style: italic;
-    color: rgb(73, 85, 76);
+    color: rgb(1, 104, 28);
 }
 .upinfo {
     margin-top: 10vh;
@@ -35,6 +38,10 @@
 .dropdown img {
     height: 20px;
     width: 20px;
+}
+#navall {
+    font-size: 1.8vh;
+    font-weight: 600;
 }
 #post li {
     font-size: 2vh;
@@ -69,4 +76,3 @@
     font-weight: 600;
     font-style: italic;
 }
-
