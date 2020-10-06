@@ -56,6 +56,9 @@ body {
     font-size: 1.7vh;
     font-weight: 600;
 }
+#navall a {
+    color: #575757;
+}
 #post li {
     font-size: 2vh;
     margin-left: 10vh;
