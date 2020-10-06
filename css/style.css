@@ -51,6 +51,9 @@
 #post img {
     margin: 0px 2px 0px 2px;
 }
+#experience {
+    margin-top: 0.6vh;
+}
 #hexp {
     font-size: 3vh;
     color: black;
