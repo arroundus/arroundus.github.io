@@ -31,10 +31,10 @@
     width: 20px;
 }
 #post li {
-    font-size: large;
+    font-size: 2vh;
 }
 #post h2 {
-    font-size: 60px;
+    font-size: 6vh;
 }
 #post h3 {
     text-align: center;
@@ -46,11 +46,11 @@
     margin: 0px 2px 0px 2px;
 }
 #hexp {
-    font-size: 30px;
+    font-size: 3vh;
     color: black;
 }
 #bodyexp li{
-    font-size: larger;
+    font-size: 1.7vh;
 }
 #bodyexp span {
     font-weight: 600;
