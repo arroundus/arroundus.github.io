@@ -1,5 +1,5 @@
 .info {
-    height: 92.3vh;
+    height: 100vh;
     background-color: rgb(182, 182, 182);
     position: relative;
 }
@@ -19,7 +19,7 @@
     color: rgb(73, 85, 76);
 }
 .all {
-    height: 92.3vh;
+    height: 100vh;
 }
 .dropdown img {
     height: 20px;
