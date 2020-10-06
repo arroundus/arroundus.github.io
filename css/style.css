@@ -1,17 +1,21 @@
 .info {
-    height: 100vh;
-    background-color: rgb(182, 182, 182);
     position: relative;
+    height: auto;
+    background-color: rgb(182, 182, 182);
 }
 #myphoto {
     box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
+    margin-top: 100px;
 }
 .info h3 {
     color: rgb(48, 48, 48);
 }
-.info p {
+.info li {
     font-size: large;
     color: #202225;
+}
+.info ul {
+    margin-bottom: 269px;
 }
 .info span {
     font-weight: 700;
@@ -19,7 +23,7 @@
     color: rgb(73, 85, 76);
 }
 .all {
-    height: 100vh;
+    height: 200px;
 }
 .dropdown img {
     height: 20px;
