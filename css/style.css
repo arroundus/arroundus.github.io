@@ -49,7 +49,7 @@
     text-align: center;
 }
 #post img {
-    margin: 0px 2px 0px 2px;
+    margin: 0px 1vw 0px 1vw;
 }
 #experience {
     margin-top: 0.6vh;
@@ -69,3 +69,4 @@
     font-weight: 600;
     font-style: italic;
 }
+
