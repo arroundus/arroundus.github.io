@@ -6,6 +6,14 @@
     border-width: 1px;
     border-color: #e6e6e6;
 }
+.myrow {
+    margin-left: 0; 
+    margin-right: 0;
+}
+.mycol {
+    padding-left: 0; 
+    padding-right:0;
+}
 body {
     font-family: 'Piazzolla', serif;
 }
@@ -48,9 +56,11 @@ body {
 }
 #post li {
     font-size: 2vh;
+    margin-left: 5vh;
 }
 #post h2 {
     font-size: 6vh;
+    margin-left: 10vh;
 }
 #post h3 {
     text-align: center;
