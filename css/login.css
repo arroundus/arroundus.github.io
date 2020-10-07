@@ -1,11 +1,10 @@
-/* Demo Background */
-body{background:url(/images/bg/bg-6.png)}
 
-/* Form Style */
+
+
+
 .mycon {
     margin-top: 25vh;
 }
-
 .form-horizontal{
  background: #fff;
  padding-bottom: 40px;
