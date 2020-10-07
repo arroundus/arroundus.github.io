@@ -55,6 +55,7 @@ body {
 #navall {
     font-size: 1.7vh;
     font-weight: 600;
+    margin-top: 6vh;
 }
 #navall a {
     color: #575757;
