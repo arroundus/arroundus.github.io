@@ -18,5 +18,6 @@ button.onclick = function() {
     else if (((phone.value).length) == 16 || ((name.value).length > 1) || ((mail.value).length > 5)) {
         alert('Сообщение отправлено');
         message.value = name.value + mail.value + phone.value + 'Работает'
+        window.close('request.html')
     }
 }
