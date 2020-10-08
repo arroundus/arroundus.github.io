@@ -21,6 +21,7 @@ label {
 }
 .header {
     text-align: center;
+    margin-top: 1vh;
 }
 h3{
     color: #ffffff;
@@ -31,7 +32,11 @@ h3{
 }
 .form textarea {
     max-width: 330px;
+    margin-bottom: 1vh;
 }
 .con {
     margin-top: 15vh;
+}
+#msg {
+    margin-top: 2vh;
 }
