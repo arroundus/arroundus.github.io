@@ -5,8 +5,10 @@
     height: auto;
     background-color: #c9c9c9;
     border-style: solid;
+    box-shadow: 0px 1px 5px 1px rgb(80, 80, 80);
     border-width: 1px;
     border-color: #e6e6e6;
+    z-index: 999;
 }
 .myrow {
     margin-left: 0; 
@@ -57,6 +59,7 @@ body {
     font-size: 1.7vh;
     font-weight: 600;
     margin-top: 6vh;
+    box-shadow: 0px 1px 5px 1px rgb(80, 80, 80);
 }
 #navall a {
     color: #575757;
