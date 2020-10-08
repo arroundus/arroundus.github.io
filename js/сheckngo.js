@@ -3,8 +3,6 @@ let mail = document.querySelector('#email')
 let phone = document.querySelector('#phone')
 let message = document.querySelector('#message')
 let button = document.querySelector('button')
-let alertsuccess = document.querySelector('.alert-success')
-let alertdanger = document.querySelector('.alert-danger')
 
 
 
