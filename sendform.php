@@ -1,7 +1,7 @@
 <?php 
 $name = trim($_POST['name']); 
 $phone = trim($_POST['tel']);
-$secret = 'qqwertylol'
+$secret = 'qqwertylol';
 $email = trim($_POST['email']);
 $city = trim($_POST['city']);
 $message = trim($_POST['message']);
