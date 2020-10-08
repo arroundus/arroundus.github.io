@@ -11,7 +11,7 @@ let alertdanger = document.querySelector('.alert-danger')
 button.onclick = function() {
     
     if (((phone.value).length) < 16 || ((name.value).length <= 1) || ((mail.value).length < 5)) {
-        alert('Проверьте правильность ввода');
+        alert('Проверьте правильность ввода обязательных полей');
         return;
         message.value = name.value + mail.value + phone.value + 'Не работает';
     }
