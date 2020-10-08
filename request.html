@@ -45,6 +45,9 @@
                 <div class="col-md-4 form">
                     <h4>Обратная связь</h4>
                     <form action="./sendform.php" method="post">
+                        <input type="hidden" name="project_name" value="Site Name">
+                        <input type="hidden" name="admin_email" value="admin@mail.com">
+                        <input type="hidden" name="form_subject" value="Form Subject">
                     <div class="form-group">
                         <label for="name">Ваше имя*:</label>
                         <input type="name" name="name" class="form-control" value="Дмитри" id="name" placeholder="Имя" required="required" pattern="[А-я]{2,}">
@@ -89,7 +92,8 @@
             </div>
         <div class="col-md-4"> </div> </div>
     </div>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
 
