@@ -9,7 +9,12 @@ body {
 label {
     color: #000000;
 }
-
+input:invalid {
+    border-color: red;
+}
+input:valid {
+    border-color: rgb(61, 165, 92);
+}
 .myrow {
     margin-left: 0; 
     margin-right: 0;

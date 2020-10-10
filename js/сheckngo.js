@@ -1,21 +1,25 @@
 let name = document.querySelector('#name')
 let mail = document.querySelector('#email')
 let phone = document.querySelector('#phone')
+let city = document.querySelector('#city')
 let message = document.querySelector('#message')
 let button = document.querySelector('button')
 
-
-
 button.onclick = function() {
-    
-    if (((phone.value).length) < 16 || ((name.value).length <= 1) || ((mail.value).length < 5)) {
-        alert('Проверьте правильность ввода обязательных полей');
-        return;
-        message.value = name.value + mail.value + phone.value + 'Не работает';
-    }
-    else if (((phone.value).length) == 16 || ((name.value).length > 1) || ((mail.value).length > 5)) {
+    if (mail.checkValidity() && name.checkValidity() && phone.checkValidity()) {
+        $.ajax({
+            type: "POST", // Метод отправки
+            url: "http://kwel.ru/api/send", // Путь к обработчику
+            data: {
+                name: 'Имя: ' + name.value,
+                email: 'Почта: ' + mail.value,
+                phone: 'Телефон: ' + phone.value,
+                city: 'Город: ' + city.value,
+                message: 'Сообщение: ' + message.value
+            },
+            dataType: 'json',
+        })
         alert('Сообщение отправлено');
-        message.value = name.value + mail.value + phone.value + 'Работает'
-        window.close('request.html')
+        window.close();
     }
-}
+    }

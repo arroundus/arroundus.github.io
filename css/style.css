@@ -23,6 +23,7 @@ body {
     background: linear-gradient(45deg, #EECFBA, #C5DDE8);
 }
 #myphoto {
+    box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
     margin-top: 1vh;
 }
 .info h3 {
@@ -44,7 +45,7 @@ body {
     margin-top: 10vh;
 }
 .downinfo {
-    margin-bottom: 42.4vh;
+    margin-bottom: 29.3vh;
 }
 .all {
     position: relative;
