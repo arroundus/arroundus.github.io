@@ -25,6 +25,7 @@ body {
 #myphoto {
     box-shadow: 5px 5px 10px 0px rgb(80, 80, 80);
     margin-top: 1vh;
+    width: 150px;
 }
 .info h3 {
     color: rgb(48, 48, 48);
@@ -102,7 +103,7 @@ body {
     color: #5f87c4;
 }
 #bodyexp li{
-    font-size: 1.7vh;
+    font-size: 2vh;
 }
 #bodyexp span {
     font-weight: 600;
