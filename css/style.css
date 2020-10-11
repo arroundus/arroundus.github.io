@@ -56,7 +56,7 @@ body {
     width: 20px;
 }
 #navall {
-    font-size: 1.7vh;
+    font-size: 2vh;
     font-weight: 600;
     margin-top: 6vh;
     box-shadow: 0px 1px 5px 1px rgb(80, 80, 80);
@@ -65,7 +65,7 @@ body {
     color: #575757;
 }
 #post li {
-    font-size: 2vh;
+    font-size: 2.3vh;
 }
 #am li {
     margin-left: 5vh;
@@ -107,4 +107,38 @@ body {
 #bodyexp span {
     font-weight: 600;
     font-style: italic;
+}
+#college {
+    background-color: rgb(218, 218, 218);
+    box-shadow: 0px 1px 5px 1px rgb(80, 80, 80);
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    height: auto;
+    margin-top: 1vh;
+}
+#education li {
+    font-size: 2.3vh;
+}
+#education h4{
+    text-align: center;
+}
+#mgutu {
+    background-color: rgb(218, 218, 218);
+    box-shadow: 0px 1px 5px 1px rgb(80, 80, 80);
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    height: 29vh;
+    margin-top: 1vh;
+}
+#education span {
+    font-weight: 600;
+    font-style: italic;
+}
+#language {
+    background-color: rgb(218, 218, 218);
+    box-shadow: 0px 1px 5px 1px rgb(80, 80, 80);
+    padding-top: 1vh;
+    height: auto;
+    padding-bottom: 1vh;
+    margin-top: 1vh;
 }
