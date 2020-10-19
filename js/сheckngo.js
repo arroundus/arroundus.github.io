@@ -9,7 +9,7 @@ button.onclick = function() {
     if (mail.checkValidity() && name.checkValidity() && phone.checkValidity()) {
         $.ajax({
             type: "POST", // Метод отправки
-            url: "http://kwel.ru/api/send", // Путь к обработчику
+            url: "/api/send", // Путь к обработчику
             data: {
                 name: 'Имя: ' + name.value,
                 email: 'Почта: ' + mail.value,
